@@ -13,7 +13,6 @@ import AppRoutes from '../../routes/AppRoutes';
 import RightTopTooltip from './RightTopTooltip';
 import SearchBar from './SearchBar';
 import StyledListItem from './StyledListItem';
-import UpgradeSection from './UpgradeSection';
 import HeaderContainer from './HeaderContainer';
 import DrawerHeader from './DrawerHeader'
 import LogoMain from '../../images/logo-main.png';
@@ -194,7 +193,6 @@ export default function Sidebar() {
               />
             ))}
           </List>
-          <UpgradeSection/>
 
         </Drawer>
         <Main open={open}>
